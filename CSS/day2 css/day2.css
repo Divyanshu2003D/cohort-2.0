@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+/* #main{
+    height: 100%;
+    width: 100%;
+    /* background-color: aquamarine; */
+    /* background-image:url(https://t4.ftcdn.net/jpg/01/67/23/55/240_F_167235520_AFrB955JhCwhkpz1ev2L7X9SBcpVgAyg.jpg) ;
+    background-size: cover;
+    background-position: center; 
+    
+}*/
+
+#box{
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(orange,white,green);
+}
+
+#box2{
+    height: 200px;
+    width: 200px;
+    background: radial-gradient( orange,white ,green);
+}
+#box3{
+    height: 200px;
+    width: 200px;
+    background: conic-gradient(orange,white ,green,orange);
+}
+#outter{
+    height: 500px;
+    width: 200px;
+    background-color: black;
+}
+#inner{
+    height: 50%;
+    width: 100px;
+    background-color: sienna;
+}
+

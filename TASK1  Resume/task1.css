@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding : 0;
+      background-color: #f5f7fa;
+      color: #333;
+    }
+
+header{
+    background-color: #1b2332;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+header h1{
+    margin: 0;
+    font-size: 32px;
+    font-weight: bold;
+}
+header p{
+    margin: 8px ;
+    font-style: italic;
+    font-size: 16px;
+    color: white;
+}
+
+.section{
+    max-width: 900px;
+    margin: 20px 20%;
+    padding: 30px ;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0px 2px 6px rgba(0.0.0.0.1);
+}
+
+.section h3{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.section p{
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.education{
+    background-color: #e4f0fb;
+    text-align: center;
+}
+
+.edu-item {
+      background: white;
+      margin: 10px auto;
+      padding: 12px;
+      border-radius: 6px;
+      max-width: 500px;
+      box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+      font-size: 15px;
+    }
+
+.skills{
+    background-color: #effbe4;
+    text-align: center;
+}
+
+.skill-item {
+      background: white;
+      margin: 10px auto;
+      padding: 12px;
+      border-radius: 6px;
+      max-width: 500px;
+      box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+      font-size: 15px;
+    }
+
+.projects{
+    background-color: #6e04f131;
+    text-align: center;
+}
+.project-item {
+      background: white;
+      margin: 10px auto;
+      padding: 12px;
+      border-radius: 6px;
+      max-width: 500px;
+      box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+      font-size: 15px;
+    }
+
+
+
+.contact{
+    background-color: #aee9aa9c;
+    text-align: center;
+}
+
+.contact-item {
+      background: white;
+      margin: 10px auto;
+      padding: 12px;
+      border-radius: 6px;
+      max-width: 500px;
+      box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+      font-size: 15px;
+    }
+
+footer{
+    background-color: #1b2332;
+    color: white;
+    text-align: center;
+    padding: 20px 5px;
+}
+footer h6{
+    margin: 0;
+    font-size: 8px;
+    font-weight: bold;
+}
