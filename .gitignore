@@ -1,0 +1,11 @@
+# Pehle sab kuch ignore karo
+/*
+
+# Lekin in folders ko ignore MAT karo (Inhe track karo)
+!/TASK1 Resume/
+!/TASK2 explore more/
+!/TASK3 sweaters/
+!/TASK4 day14 iphone/
+!/TASK5 day15 cards/
+!/TASK6 day16 hover/
+!.gitignore
