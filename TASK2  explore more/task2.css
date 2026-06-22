@@ -1,0 +1,39 @@
+@font-face {
+    font-family: car;
+    src: url(./crush_n_burn/CrushNBurn-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(./cash-macanaya-vHa9ehgK6pY-unsplash.jpg);
+    background-size: cover ;
+    background-position: center;
+    
+    text-align: center;
+    padding: 25px;
+}
+h1{
+    font-style: italic;
+    font-size: 130px;
+    font-weight: 50;
+    font-family: car;
+}
+button:hover{
+    color: white;
+    padding: 5px 10px ;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: black;
+    font-weight: 600px;
+}

@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(5, 5, 3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    
+    width: 200px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+}
+.card div{
+    overflow: hidden;
+    position: relative;
+}
+ .card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 10px;
+ }
+.card h2{
+    font-size: 20px;
+    text-align: center;
+
+}
+.card i{
+    position: absolute ;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    opacity: 0;
+    /* background: linear-gradient(to right bottom,purple,rgb(221, 24, 99)); */
+    background-image: url(https://imgs.search.brave.com/ihzE8qF8MQ1BKJs6jCVhcI2ndS3jBPGsw8jG681Qnb0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/c2h1dHRlcnN0b2Nr/LmNvbS9pbWFnZS1w/aG90by9tdWx0aWNv/bG9yLWdyYWRpZW50/LWJhY2tncm91bmQt/c2ltaWxhci1saWtl/LTI2MG53LTIxODA2/OTYzNDkuanBn);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    transform: translate(-50%,-50%) scale(1) rotate(-60deg) ;
+    transition: all cubic-bezier(.65,1,.77,1.44) 0.3s;
+}
